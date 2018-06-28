@@ -1,0 +1,6 @@
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+  {% if template == '<%= chunk %>' %}
+    {{ template | append: '.css' | asset_url | stylesheet_tag }}
+  {% endif %}
+<% } %>
+

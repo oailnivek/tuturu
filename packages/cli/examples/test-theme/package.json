@@ -1,0 +1,14 @@
+{
+  "name": "test-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tuturu": "node ../../index.js",
+    "dev": "yarn tuturu serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Liao <ucfan1784@gmail.com>",
+  "license": "ISC"
+}

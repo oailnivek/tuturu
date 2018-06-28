@@ -1,0 +1,26 @@
+{
+  "name": "@tuturu/cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Liao <ucfan1784@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/slate-tools": "0.13",
+    "babel-loader": "^7.1.4",
+    "chalk": "^2.4.1",
+    "circular-dependency-plugin": "^5.0.2",
+    "commander": "^2.15.1",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "vue-loader": "^15.2.4",
+    "webpack": "^4.12.2"
+  }
+}

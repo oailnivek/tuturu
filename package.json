@@ -1,0 +1,16 @@
+{
+  "name": "tuturu",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Liao <ucfan1784@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "lerna": "^2.9.0"
+  }
+}

@@ -1,0 +1,9 @@
+<script defer src="{{ 'commons.js' | asset_url }}"></script>
+<script defer src="{{ 'vendor.js' | asset_url }}"></script>
+
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+  {% if template == '<%= chunk %>' %}
+    <script defer src="{{ template | append: '.js' | asset_url }}"></script>
+  {% endif %}
+<% } %>
+
