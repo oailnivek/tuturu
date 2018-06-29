@@ -1,14 +1,29 @@
 {
   "name": "tuturu",
+  "private": true,
   "version": "0.1.0",
-  "description": "",
+  "description": "Experimental Shopify theme development toolkit.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Kevin Liao <ucfan1784@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oailnivek/tuturu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oailnivek/tuturu/issues"
+  },
+  "homepage": "https://github.com/oailnivek/tuturu",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "jest": "^22"
+  },
   "devDependencies": {
     "eslint": "^5.0.1",
     "lerna": "^2.9.0"

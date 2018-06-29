@@ -7,10 +7,7 @@ module.exports = () => {
 
   return files.reduce((entries, file) => {
     const key = path.basename(file, '.js')
-    entries[key] = [
-      // src('utils/bootstrap'),
-      src(`pages/${key}`)
-    ]
+    entries[key] = src(`pages/${key}`)
 
     return entries
   }, {})
